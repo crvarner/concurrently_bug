@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "concurrently": "^5.3.0"
+    },
+    "scripts": {
+        "start": "concurrently --kill-others -c green \"npm:flask\"",
+        "flask": "FLASK_APP=app.py FLASK_ENV=development flask run"
+    }
+}
