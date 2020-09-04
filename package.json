@@ -7,6 +7,7 @@
     },
     "scripts": {
         "start": "concurrently --kill-others -c green \"npm:flask\"",
+        "raw": "concurrently --raw --kill-others -c green \"npm:flask\"",
         "flask": "FLASK_APP=app.py FLASK_ENV=development flask run"
     }
 }
