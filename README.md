@@ -9,5 +9,9 @@ to reproduce [issue#241](https://github.com/kimmobrunfeldt/concurrently/issues/2
 (py3_venv)$ npm install
 (py3_venv)$ npm start
 ```
-
 refresh http://localhost:5000/
+
+setting raw flag produces expected behavior without the pretty colors
+```
+(py3_venv)$ npm run raw
+```
